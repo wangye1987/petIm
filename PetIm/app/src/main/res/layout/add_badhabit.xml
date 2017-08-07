@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_38">
+        <RelativeLayout
+            android:id="@+id/rv_indoor"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/indoor"
+                android:drawableLeft="@drawable/shineied"
+                android:text="@string/indoor"
+                android:drawablePadding="@dimen/margin_5"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textColor="@color/FF2AA53A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/line_indoor"
+                android:layout_alignParentBottom="true"
+                android:background="@color/FF2AA53A"
+                android:layout_alignLeft="@id/indoor"
+                android:layout_alignRight="@id/indoor"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rv_outdoor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/outdoor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/shiwai"
+                android:drawablePadding="@dimen/margin_5"
+                android:gravity="center"
+                android:text="@string/outdoor" />
+
+            <TextView
+                android:id="@+id/line_outdoor"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignLeft="@id/outdoor"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@id/outdoor"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_habit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

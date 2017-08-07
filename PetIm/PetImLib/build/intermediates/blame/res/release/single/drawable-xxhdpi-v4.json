@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\nav_btn_back.png",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\src\\main\\res\\drawable-xxhdpi\\nav_btn_back.png"
+    },
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\search_clear.png",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\src\\main\\res\\drawable-xxhdpi\\search_clear.png"
+    }
+]

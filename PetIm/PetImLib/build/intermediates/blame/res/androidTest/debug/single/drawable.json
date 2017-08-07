@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_count.xml",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_count.xml"
+    },
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rectangle_loading_bg.xml",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\rectangle_loading_bg.xml"
+    },
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\loading_refresh.xml",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\loading_refresh.xml"
+    },
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bt_bg_yellow.xml",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\bt_bg_yellow.xml"
+    },
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rounded_corners.xml",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\rounded_corners.xml"
+    },
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ripple_bg.xml",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\ripple_bg.xml"
+    },
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\loading_head.xml",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\loading_head.xml"
+    }
+]

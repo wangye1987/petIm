@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_top_bar"
+    android:background="@color/black_deep"
+    android:gravity="center_vertical" >
+
+    <RelativeLayout
+        android:layout_alignParentLeft="true"
+        android:id="@+id/left_layout"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/ease_common_tab_bg"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/left_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="5dp"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside" />
+        <TextView
+            android:id="@+id/left_text"
+            android:text="交流"
+            android:textColor="@color/bottom_text_color_normal"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/left_image"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:maxLength="12"
+        android:ellipsize="end"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/right_layout"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ease_common_tab_bg" >
+
+        <ImageView
+            android:id="@+id/right_image"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="centerInside" />
+    </RelativeLayout>
+
+</RelativeLayout>

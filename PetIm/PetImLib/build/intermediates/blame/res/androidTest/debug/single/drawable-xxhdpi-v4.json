@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\search_clear.png",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\search_clear.png"
+    },
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\nav_btn_back.png",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\nav_btn_back.png"
+    },
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
+    }
+]

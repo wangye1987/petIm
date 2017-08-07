@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@color/color_FF343339"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+  <!--  <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/color_FF343339" />-->
+    <com.weeho.petim.view.MyClock
+        android:id="@+id/myclock"
+        android:background="@drawable/clock_empty"
+        android:layout_width="160dp"
+        android:layout_height="165dp"
+        ></com.weeho.petim.view.MyClock>
+</LinearLayout>
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_alarm"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

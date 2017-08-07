@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<View
+    android:id="@+id/view_top"
+    android:layout_alignParentTop="true"
+    android:layout_width="match_parent"
+    android:background="@color/reveal_color"
+    android:layout_height="20dp"></View>
+    <RelativeLayout
+        android:layout_below="@id/view_top"
+        android:id="@+id/nick_relative"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_48"
+        >
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:text="@string/nickname"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_16"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_nick"
+            android:layout_alignParentRight="true"
+            android:text=""
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:drawablePadding="2dp"
+            android:layout_marginRight="@dimen/margin_10"
+            android:textSize="@dimen/textsize_14"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/FFECECEC"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_height="0.5dp"
+            android:id="@+id/view2" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:background="@color/FFECECEC" />
+
+    <RelativeLayout
+        android:id="@+id/sex_relative_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/sex_relative"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/linear_48">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:text="@string/sex"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize_16" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"></View>
+
+            <TextView
+                android:id="@+id/tv_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin_10"
+                android:text="" />
+        </LinearLayout>
+        <View
+            android:layout_below="@id/sex_relative"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:background="@color/FFECECEC"
+            android:layout_height="0.5dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/wechat_relative"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_48">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:text="@string/wechat"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_16" />
+
+        <TextView
+            android:id="@+id/tv_wechat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_10"
+            android:gravity="center"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:background="@color/FFECECEC" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/wechat_relative"
+        android:id="@+id/phone_relative"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_48"
+        >
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:text="@string/phone"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_16"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_alignParentRight="true"
+            android:text=""
+            android:gravity="right|center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/FFECECEC"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_height="0.5dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/area_relative"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_48"
+        android:layout_below="@+id/phone_relative"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:text="@string/area"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_16"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_area"
+            android:layout_alignParentRight="true"
+            android:text=""
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:drawablePadding="2dp"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/FFECECEC"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_height="0.5dp"/>
+    </RelativeLayout>
+</LinearLayout>

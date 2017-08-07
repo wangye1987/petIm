@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/rc_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_5"
+        android:background="@drawable/item_selector"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/iv_rc" />
+
+            <TextView
+                android:id="@+id/num_1"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="right|top"
+                android:background="@drawable/message_num_bg"
+                android:gravity="center"
+                android:maxLength="2"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_10"
+                android:visibility="invisible" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/tv_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="日常训练师" />
+
+            <TextView
+                android:id="@+id/tv_msg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:hint="点击接入日常训练师客服"
+                android:maxLength="15"
+                android:maxLines="1"
+                android:text=""
+                android:textColorHint="@color/color_d6" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_time1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:text="" />
+    </LinearLayout>
+
+    <View
+    android:background="@color/FFECECEC"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="@dimen/margin_5"
+    android:layout_height="1px"/>
+    <LinearLayout
+        android:id="@+id/xw_msg"
+        android:layout_margin="@dimen/margin_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_selector"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="55dp"
+            android:layout_height="55dp">
+
+        <ImageView
+            android:src="@drawable/iv_xw"
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+            <TextView
+                android:id="@+id/num_2"
+                android:layout_gravity="right|top"
+                android:text=""
+                android:maxLength="2"
+                android:visibility="invisible"
+                android:background="@drawable/message_num_bg"
+                android:gravity="center"
+                android:textSize="@dimen/textsize_10"
+                android:textColor="@color/white"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/tv_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="行为分析师" />
+
+            <TextView
+                android:id="@+id/tv_msg2"
+                style="@style/hint_white_textstyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:hint="点击接入行为分析师客服"
+                android:maxLength="15"
+                android:maxLines="1"
+                android:text=""
+                android:textColorHint="@color/color_d6" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_time2"
+            android:text=""
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <View
+        android:background="@color/FFECECEC"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:layout_height="1px"/>
+    <LinearLayout
+        android:id="@+id/yp_msg"
+        android:background="@drawable/item_selector"
+        android:layout_margin="@dimen/margin_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="55dp"
+            android:layout_height="55dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/iv_yp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/num_3"
+                android:layout_gravity="right|top"
+                android:text=""
+                android:maxLength="2"
+                android:visibility="invisible"
+                android:gravity="center"
+                android:textSize="@dimen/textsize_10"
+                android:textColor="@color/white"
+                android:background="@drawable/message_num_bg"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:gravity="left|center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_title3"
+                android:text="用品专家"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_msg3"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text=""
+                android:maxLines="1"
+                android:maxLength="15"
+                android:ellipsize="end"
+                android:hint="点击接入用品专家客服"
+                style="@style/hint_white_textstyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_time3"
+            android:text=""
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <View
+        android:background="@color/FFECECEC"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:layout_height="1px"/>
+
+    <LinearLayout
+        android:id="@+id/xl_msg"
+        android:layout_margin="@dimen/margin_5"
+        android:background="@drawable/item_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="55dp"
+            android:layout_height="55dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/iv_fxs"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/num_4"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="right|top"
+                android:background="@drawable/message_num_bg"
+                android:maxLength="2"
+                android:visibility="invisible"
+                android:text=""
+                android:gravity="center"
+                android:textSize="@dimen/textsize_10"
+                android:textColor="@color/white" />
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:gravity="left|center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_title4"
+                android:text="心理分析师"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_msg4"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text=""
+                android:maxLines="1"
+                android:maxLength="15"
+                android:ellipsize="end"
+                android:hint="点击接入心理分析师客服"
+                style="@style/hint_white_textstyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_time4"
+            android:text=""
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <View
+        android:background="@color/FFECECEC"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:layout_height="1px"/>
+    <LinearLayout
+        android:id="@+id/ts_msg"
+        android:layout_margin="@dimen/margin_5"
+        android:background="@drawable/item_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <FrameLayout
+            android:layout_width="55dp"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/iv_ts" />
+
+            <TextView
+                android:id="@+id/num_5"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="right|top"
+                android:background="@drawable/message_num_bg"
+                android:gravity="center"
+                android:maxLength="2"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_10"
+                android:visibility="invisible" />
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:gravity="left|center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_title5"
+                android:text="投诉中心"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_msg5"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:maxLength="15"
+                android:ellipsize="end"
+                android:text=""
+                android:hint="您有什么投诉或者建议可以告诉我们"
+                style="@style/hint_white_textstyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_time5"
+            android:text=""
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <View
+        android:background="@color/FFECECEC"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:layout_height="1px"/>
+</LinearLayout>

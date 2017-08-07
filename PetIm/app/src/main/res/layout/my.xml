@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/F1F1F1"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/userinfo"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/item_selector"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/userinfo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/black_textstyle"
+            android:layout_marginLeft="10dp"
+            android:text="@string/my_info" />
+    </LinearLayout>
+    <View
+        android:background="@color/FFECECEC"
+        android:layout_width="match_parent"
+        android:paddingRight="@dimen/margin_20"
+        android:paddingLeft="@dimen/margin_20"
+        android:layout_height="1px"></View>
+
+    <LinearLayout
+        android:id="@+id/petinfo"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@drawable/item_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/petinfo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/black_textstyle"
+            android:layout_marginLeft="10dp"
+            android:text="宠物资料" />
+    </LinearLayout>
+    <View
+        android:background="@color/FFECECEC"
+        android:layout_width="match_parent"
+        android:layout_height="1px"></View>
+
+    <LinearLayout
+        android:id="@+id/petex"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@drawable/item_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/abusepet" />
+
+        <TextView
+            style="@style/black_textstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="宠物恶习" />
+    </LinearLayout>
+
+    <View
+        android:background="@color/FFECECEC"
+        android:layout_width="match_parent"
+        android:layout_height="1px"></View>
+    <LinearLayout
+        android:id="@+id/petresttime"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@drawable/item_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/time_table" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            style="@style/black_textstyle"
+            android:text="宠物作息时间" />
+    </LinearLayout>
+    <View
+        android:background="@color/FFECECEC"
+        android:layout_width="match_parent"
+        android:layout_height="1px"></View>
+    <LinearLayout
+        android:id="@+id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/item_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:paddingLeft="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/aboutpet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            style="@style/black_textstyle"
+            android:text="关于宠伴" />
+    </LinearLayout>
+    <View
+        android:background="@color/FFECECEC"
+        android:layout_width="match_parent"
+        android:layout_height="1px"></View>
+
+<TextView
+    android:layout_weight="1"
+    android:layout_width="1px"
+    android:layout_height="0dp" />
+
+    <LinearLayout
+        android:id="@+id/login_out"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginBottom="21px"
+        android:background="@drawable/item_selector"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize_16"
+            android:textColor="@color/color_EC5A58"
+            android:text="@string/exit" />
+    </LinearLayout>
+</LinearLayout>

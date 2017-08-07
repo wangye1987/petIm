@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_refresh.xml",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\src\\main\\res\\drawable\\loading_refresh.xml"
+    },
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle_loading_bg.xml",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\src\\main\\res\\drawable\\rectangle_loading_bg.xml"
+    },
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners.xml",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\src\\main\\res\\drawable\\rounded_corners.xml"
+    },
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_count.xml",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\src\\main\\res\\drawable\\shape_count.xml"
+    },
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\debug\\drawable\\ripple_bg.xml",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\src\\main\\res\\drawable\\ripple_bg.xml"
+    },
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_bg_yellow.xml",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\src\\main\\res\\drawable\\bt_bg_yellow.xml"
+    },
+    {
+        "merged": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_head.xml",
+        "source": "D:\\hehe\\PetImCode\\PetIm\\PetImLib\\src\\main\\res\\drawable\\loading_head.xml"
+    }
+]

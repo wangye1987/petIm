@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_dialog" >
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >-->
+
+        <!-- 上部分视图 -->
+
+        <LinearLayout
+            android:id="@+id/confirm_dialog_top_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_marginRight="@dimen/margin_5"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:baselineAligned="false"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/confirm_dialog_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:maxLines="1"
+                android:text="@string/exit_title"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <View
+                android:id="@+id/confirm_dialog_content_margin_v"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/confirm_dialog_content_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:textSize="13sp"
+                android:textColor="@drawable/selector_text_call"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/confirm_dialog_content_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:textSize="13sp"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/confirm_dialog_content_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@drawable/selector_text_call"
+                android:textSize="13sp"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/confirm_dialog_content_tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@drawable/selector_text_call"
+                android:textSize="13sp"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/confirm_dialog_content_tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@drawable/selector_text_call"
+                android:textSize="13sp"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/confirm_dialog_content_tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:textSize="13sp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/confirm_dialog_input_et"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_gray_frame"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="#969696"
+                android:textSize="16sp"
+                android:visibility="gone" />
+        </LinearLayout>
+        <!-- 下部分视图 -->
+
+        <LinearLayout
+            android:id="@+id/linear_button"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/confirm_dialog_top_ll"
+            android:layout_marginTop="30dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/confirm_dialog_left_ll"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#e4e4e4"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:paddingRight="0.5dp"
+                android:paddingTop="0.5dp" >
+
+                <TextView
+                    android:id="@+id/confirm_dialog_left_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="确定"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/confirm_dialog_right_ll"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#e4e4e4"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:clickable="true"
+                android:layout_marginRight="@dimen/margin_5"
+                android:orientation="vertical"
+                android:paddingTop="0.5dp" >
+
+                <TextView
+                    android:id="@+id/confirm_dialog_right_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+   <!-- </RelativeLayout>
+-->
+</RelativeLayout>
